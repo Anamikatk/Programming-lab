@@ -20,12 +20,7 @@ print("List :  ",a)
 
 #Two list
 
-l1=input("Enter 1st list :  ")
-l1=l1.split(" ")
-l1=list(map(int,l1))
-l2=input("Enter 1st list :  ")
-l2=l2.split(" ")
-l2=list(map(int,l2))
+
 '''
 n1=int(input("Enter no of elts in list1 :  "))
 print("Enter the elts : ")
@@ -37,6 +32,12 @@ print("Enter the elts : ")
 for i in range (n2):
     f=int(input())
     l2.append(f)'''
+l1=input("Enter 1st list :  ")
+l1=l1.split(" ")
+l1=list(map(int,l1))
+l2=input("Enter 1st list :  ")
+l2=l2.split(" ")
+l2=list(map(int,l2))
 print("List 1 :  ",l1)
 print("List 2 :  ",l2)
 
